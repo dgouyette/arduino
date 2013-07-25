@@ -1,6 +1,6 @@
+#include <VirtualWire.h> // On inclue la librairie VirtualWire
 int led = 0;
 char *msg = "0"; // Tableau qui contient notre message
-#include <VirtualWire.h> // On inclue la librairie VirtualWire
 
 
 void setup() {   
