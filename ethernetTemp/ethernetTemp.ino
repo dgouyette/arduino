@@ -36,6 +36,7 @@ void loop()
   EthernetClient client = server.available();  // try to get client
 
     if (client) {  // got client?
+    Serial.println("got client");
         boolean currentLineIsBlank = true;
         while (client.connected()) {
             if (client.available()) {   // client data available to read

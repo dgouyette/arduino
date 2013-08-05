@@ -1,5 +1,9 @@
 #include <SPI.h>
 #include <Ethernet.h>
+#include <DHT11.h>
+#include <VirtualWire.h> // On inclue la librairie VirtualWire
+
+
 
 
 /* Détails technique de la connexion ethernet */
